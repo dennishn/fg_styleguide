@@ -1,0 +1,55 @@
+// // // //
+// Colors
+// // // //
+//
+// Primary, Secondary
+//
+$primary-color: #9a30a7;
+$primary-color-alt: #6f147a;
+$secondary-color: #0087b1;
+$secondary-color-alt: #007da2;
+//
+// Contextual Colors (Alert, Info, Warning)
+//
+$alert-color: #f7e7e7;
+$alert-color-alt: #be0000;
+$success-color: #f6f7f5;
+$success-color-alt: #a3bf4d;
+$warning-color: #fcf0e4;
+$warning-color-alt: #f08a24;
+$info-color: #f2f9fb;
+$info-color-alt: #daedf2;
+//
+// Grays
+//
+$gray-lighter: #fbfbfb;
+$gray-lighter-alt: #f9faf7;
+$gray-light: #f6f7f5;
+$gray-light-alt: #f1f2f0;
+$gray: #d1d1d1;
+$gray-dark: #c3c4c2;
+$gray-darker: #a3a3a3;
+$gray-darkest: #474747;
+
+// // // //
+//  FORMS
+//
+$form-label-font-size: rem-calc(14);
+$form-label-font-weight: bold;
+$form-label-line-height: 1.5;
+$form-label-font-color: $gray-darkest;
+$form-label-small-transform: capitalize;
+$form-label-bottom-margin: rem-calc(10);
+$input-font-family: inherit;
+$input-font-color: $gray-darkest;
+$input-font-size: rem-calc(18);
+$input-bg-color: $gray-lighter-alt;
+$input-focus-bg-color: $gray-lighter-alt;
+$input-border-color: $gray;
+$input-focus-border-color: $gray-darkest;
+$input-border-style: solid;
+$input-border-width: 2px;
+$input-border-radius: 4px;
+$input-disabled-bg: $gray-light-alt;
+$input-box-shadow: none;
+$input-include-glowing-effect: false;

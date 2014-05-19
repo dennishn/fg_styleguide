@@ -1,0 +1,69 @@
+.custom-checkbox,
+.custom-radio {
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+	margin: -$input-border-width 0 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	border: $input-border-width $input-border-style $input-border-color;
+	&.disabled {
+		background: $input-disabled-bg;
+		border-color: $input-disabled-bg;
+	}
+	&.disabled.checked {
+		&:after {
+			color: $form-label-font-color;
+		}
+	}
+}
+.custom-checkbox {
+	border-radius: $input-border-radius;
+	&.hover {
+	}
+	&.checked {
+		&:after {
+			content: $fa-var-check;
+			font-family: FontAwesome;
+			position: absolute;
+			top: 2px;
+			left: -1px;
+			width: 100%;
+			height: 100%;
+			font-size: 14px;
+			line-height: 0.65;
+			color: $primary-color-alt;
+			pointer-events: none;
+		}
+	}
+}
+.custom-radio {
+	border-radius: 1000px;
+	&.checked {
+		&:after {
+			content: $fa-var-circle;
+			font-family: FontAwesome;
+			position: absolute;
+			top: 4px;
+			left: 2px;
+			width: 100%;
+			height: 100%;
+			font-size: 10px;
+			line-height: 0.65;
+			color: $primary-color-alt;
+			pointer-events: none;
+		}
+	}
+}
+
+.custom-input-label {
+	display: inline;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+.custom-input-group {
+	margin-bottom: $form-label-bottom-margin;
+}

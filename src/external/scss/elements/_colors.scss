@@ -1,0 +1,128 @@
+.bg-primary {
+	background: $primary-color;
+	&.alt {
+		background: $primary-color-alt;
+	}
+}
+.bg-secondary {
+	background: $secondary-color;
+	&.alt {
+		background: $secondary-color-alt;
+	}
+}
+
+.bg-alert {
+	background: $alert-color;
+	&.alt {
+		background: $alert-color-alt;
+	}
+}
+.bg-success {
+	background: $success-color;
+	&.alt {
+		background: $success-color-alt;
+	}
+}
+.bg-warning {
+	background: $warning-color;
+	&.alt {
+		background: $warning-color-alt;
+	}
+}
+.bg-info {
+	background: $info-color;
+	&.alt {
+		background: $info-color-alt;
+	}
+}
+
+.bg-gray-lighter {
+	background: $gray-lighter;
+	&.alt {
+		background: $gray-lighter-alt;
+	}
+}
+.bg-gray-light {
+	background: $gray-light;
+	&.alt {
+		background: $gray-light-alt;
+	}
+}
+.bg-gray {
+	background: $gray;
+}
+.bg-gray-dark {
+	background: $gray-dark;
+}
+.bg-gray-darker {
+	background: $gray-darker;
+}
+.bg-gray-darkest {
+	background: $gray-darkest;
+}
+
+//
+// TEXT
+//
+.text-primary {
+	color: $primary-color;
+	&.alt {
+		color: $primary-color-alt;
+	}
+}
+.text-secondary {
+	color: $secondary-color;
+	&.alt {
+		color: $secondary-color-alt;
+	}
+}
+
+.text-alert {
+	color: $alert-color;
+	&.alt {
+		color: $alert-color-alt;
+	}
+}
+.text-success {
+	color: $success-color;
+	&.alt {
+		color: $success-color-alt;
+	}
+}
+.text-warning {
+	color: $warning-color;
+	&.alt {
+		color: $warning-color-alt;
+	}
+}
+.text-info {
+	color: $info-color;
+	&.alt {
+		color: $info-color-alt;
+	}
+}
+
+.text-gray-lighter {
+	color: $gray-lighter;
+	&.alt {
+		color: $gray-lighter-alt;
+	}
+}
+.text-gray-light {
+	color: $gray-light;
+	&.alt {
+		color: $gray-light-alt;
+	}
+}
+.text-gray {
+	color: $gray;
+}
+.text-gray-dark {
+	color: $gray-dark;
+}
+.text-gray-darker {
+	color: $gray-darker;
+}
+.text-gray-darkest {
+	color: $gray-darkest;
+}
