@@ -6,7 +6,8 @@
     "jquery": "~1.9.1",
     "foundation": "~5.2.2",
     "iCheck": "~1.0.2",
-    "chosen_v1.1.0": "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+    "chosen_v1.1.0": "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip",
+    "css-toggle-switch": "~2.1.5"
   },
   "devDependencies": {
     "jQuery-Autocomplete": "https://github.com/devbridge/jQuery-Autocomplete.git#1.2.7",

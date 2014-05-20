@@ -1,0 +1,216 @@
+/* @group Base */
+.chosen-container {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 $form-spacing 0;
+  vertical-align: middle;
+  font-size: $input-font-size;
+  zoom: 1;
+  *display: inline;
+  .chosen-drop {
+    position: absolute;
+    top: 100%;
+    left: -9999px;
+    z-index: 1010;
+    box-sizing: border-box;
+    width: 100%;
+    border: $input-border-width $input-border-style $input-border-color;
+    border-top-width: 1px;
+    background: $input-bg-color;
+  }
+  &.chosen-with-drop .chosen-drop {
+    left: 0;
+  }
+  a{
+    cursor: pointer;
+  }
+}
+/* @end */
+
+/* @group Single Chosen */
+.chosen-container-single{
+  .chosen-single {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: $form-spacing / 2;
+	height: ($input-font-size + ($form-spacing * 1.5) - rem-calc(1));
+	line-height: 1.2;
+    color: $gray-darkest;
+    background: $input-bg-color;
+    text-decoration: none;
+    white-space: nowrap;
+    border: $input-border-width $input-border-style $input-border-color;
+    border-radius: $input-border-radius;
+  }
+  .chosen-default {
+    color: $gray-dark;
+  }
+  .chosen-single span {
+    display: block;
+    overflow: hidden;
+    margin-right: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .chosen-single-with-deselect span {
+    margin-right: 38px;
+  }
+  .chosen-single abbr {
+    position: absolute;
+    top: 6px;
+    right: 26px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 1px;
+    &:hover {
+      background-position: -42px -10px;
+    }
+  }
+  &.chosen-disabled .chosen-single abbr:hover {
+    background-position: -42px -10px;
+  }
+  .chosen-single div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 40px;
+    height: 100%;
+    background: #fff;
+    border-left: 1px $input-border-style $input-border-color;
+    b {
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-family: FontAwesome;
+      font-size: 20px;
+    	line-height: ($input-font-size + ($form-spacing * 1.2) - rem-calc(1));;
+      text-align: center;
+      color: $primary-color-alt;
+      &:after {
+      	content: $fa-var-chevron-down;
+      }
+    }
+  }
+  .chosen-search {
+    position: relative;
+    z-index: 1010;
+    margin: 0;
+    padding: 3px 4px;
+    white-space: nowrap;
+    input[type="text"] {
+      margin: 0;
+      width: 100%;
+      height: auto;
+      outline: 0;
+      border: 1px $input-border-style $input-border-color;
+    }
+  }
+  .chosen-drop {
+    margin-top: -1px;
+    border-radius: 0 0 4px 4px;
+  }
+  &.chosen-container-single-nosearch .chosen-search {
+    position: absolute;
+    left: -9999px;
+  }
+}
+/* @end */
+
+/* @group Results */
+.chosen-container .chosen-results {
+  color: $gray-darkest;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  max-height: 240px;
+  -webkit-overflow-scrolling: touch;
+  li {
+    display: none;
+    margin: 0;
+    padding: 5px 10px;
+    list-style: none;
+    line-height: 20px;
+    word-wrap: break-word;
+    -webkit-touch-callout: none;
+    &.active-result {
+      display: list-item;
+      cursor: pointer;
+    }
+    &.disabled-result {
+      display: list-item;
+      color: $gray-dark;
+      cursor: default;
+    }
+    &.highlighted {
+      background-color: $gray-light-alt;
+      color: $primary-color-alt;
+    }
+    &.no-results {
+      display: list-item;
+    }
+    &.group-result {
+      display: list-item;
+      font-weight: bold;
+      cursor: default;
+    }
+    &.group-option {
+      padding-left: 15px;
+    }
+    em {
+      font-style: normal;
+      text-decoration: underline;
+    }
+  }
+}
+/* @end */
+
+/* @group Active  */
+.chosen-container-active{
+  .chosen-single {
+  }
+  &.chosen-with-drop{
+    .chosen-single {
+    	border-bottom-left-radius: 0;
+    	border-bottom-right-radius: 0;
+    	border-bottom: 0;
+    }
+    .chosen-single div {
+      b {
+      	&:after {
+      		content: $fa-var-chevron-up;
+      	}
+      }
+    }
+  }
+  .chosen-choices {
+    li.search-field input[type="text"] {
+    }
+  }
+}
+/* @end */
+
+/* @group Disabled Support */
+.chosen-disabled {
+	background: $input-disabled-bg;
+  cursor: default;
+  .chosen-single {
+    cursor: default;
+    border-color: $input-disabled-bg;
+    color: $gray-darkest;
+    div {
+    	border-left: 1px $input-border-style $input-disabled-bg;
+    	b:after {
+    		color: $input-disabled-bg;
+    	}
+    }
+  }
+  .chosen-choices .search-choice .search-choice-close {
+    cursor: default;
+  }
+}
+/* @end */

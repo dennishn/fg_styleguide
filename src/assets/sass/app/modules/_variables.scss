@@ -62,7 +62,7 @@ $color-warning: #E74C3C;
 $color-primary: #1ABC9C;
 
 
-$color-dark: #1F253D;
+$color-dark: tomato;
 $color-light-blue: #272F4D;
 
 $color-nice-blue: #394264;
@@ -99,9 +99,9 @@ $widescreen-breakpoint-start : 1400px;
 $heading-font-family: $base-font-family;
 
     /**
-     * Mobile Sizes     
+     * Mobile Sizes
      */
-    
+
     $h1-size: 30px; //.alpha
     $h2-size: 24px; //.beta
     $h3-size: 20px; //.gamma
@@ -114,7 +114,7 @@ $heading-font-family: $base-font-family;
      * Desktop font size
      * Both tablets and desktops
      */
-    
+
     $h1-size-desktop: 48px;
     $h2-size-desktop: 36px;
     $h3-size-desktop: 24px;
@@ -150,9 +150,9 @@ $link-underline-on-hover : true;
 
 $input-border-color  : $base-ui-color;
 $input-background    : #FAFAFA;
-$input-padding       : 0.6em 1em; 
-$input-padding-medium       : 0.8em 1em; 
-$input-padding-large       : 1em 1em; 
+$input-padding       : 0.6em 1em;
+$input-padding-medium       : 0.8em 1em;
+$input-padding-large       : 1em 1em;
 $input-border-radius : $base-radius;
 
 /*------------------------------------*\
@@ -166,28 +166,28 @@ $button-border-radius      : $base-radius;
     /**
      * Button default
      */
-    
+
     $button-default-background : #EDEEF1;
     $button-default-color: #888;
 
     /**
      * Button Primary
      */
-    
+
     $button-primary-background      : $color-primary;
     $button-primary-border: $color-primary;
-    
+
     /**
      * Button Secondary
      */
-    
+
     $button-secondary-background: #9DA6AF;
     $button-secondary-border: #9DA6AF;
 
     /**
      * Button Light
      */
-    
+
     $button-light-background: #fff;
     $button-light-color: lighten($base-color, 10%);
     $button-light-border: darken($base-ui-color,10%);
@@ -195,14 +195,14 @@ $button-border-radius      : $base-radius;
     /**
      * Button Dark
      */
-    
+
     $button-dark-background: #323A45;
     $button-dark-border: #323A45;
 
     /**
      * Button Warning
      */
-    
+
     $button-warning-background: $color-warning;
     $button-warning-border: $color-warning;
 
@@ -210,14 +210,14 @@ $button-border-radius      : $base-radius;
     /**
      * Button facebook
      */
-    
+
     $button-facebook-background: #5970B3;
     $button-facebook-border: #5970B3;
 
     /**
      * Button google
      */
-    
+
     $button-google-background: #EF2213;
     $button-google-border: #EF2213;
 

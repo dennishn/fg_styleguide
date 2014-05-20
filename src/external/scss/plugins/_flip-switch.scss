@@ -1,0 +1,81 @@
+.custom-switch span {
+	display: none;
+}
+
+/* We can't test for a specific feature,
+ * so we only target browsers with support for media queries.
+ */
+@media only screen {
+	.custom-switch {
+		position: relative;
+		display: block;
+		height: 40px;
+		width: 100px;
+		overflow: hidden;
+		// padding: 2px;
+		background: $input-bg-color;
+		border: $input-border-width $input-border-style $input-border-color;
+		border-radius: $input-border-radius;
+		* {
+			box-sizing: border-box;
+		}
+		label {
+			position: absolute;
+			display: block;
+			// float: left;
+			width: 50px;
+			height: 40px;
+			margin: 0 0 0 0 !important;
+			top: -2px;
+			text-align: center;
+			line-height: 32px;
+			border-top: 4px solid $input-bg-color;
+			border-bottom: 4px solid $input-bg-color;
+			// vertical-align: middle;
+			&:first-of-type {
+				left: -2px;
+				border-left: 4px solid $input-bg-color;
+				border-right: 1px solid $input-bg-color;
+			}
+			&:last-of-type {
+				right: -2px;
+				border-left: 1px solid $input-bg-color;
+				border-right: 4px solid $input-bg-color;
+			}
+		}
+		input[type="radio"] {
+			display: block;
+			position: absolute;
+			width: 50px;
+			height: 40px;
+			top: -2px;
+			margin: 0;
+			padding: 0;
+			opacity: 0;
+			-moz-appearance: none;
+			&:first-of-type {
+				left: -2px;
+			}
+			&:last-of-type {
+				right: -2px;
+			}
+		}
+		input[type="radio"]:checked + label {
+			color: #fff;
+			background: $primary-color-alt;
+		}
+	}
+}
+/* Bugfix for older Webkit, including mobile Webkit. Adapted from
+ * http://css-tricks.com/webkit-sibling-bug/
+ */
+@media only screen and (-webkit-max-device-pixel-ratio: 2) and (max-device-width: 1280px) {
+	.switch-light, .switch-toggle {
+		-webkit-animation: webkitSiblingBugfix infinite 1s; } }
+
+@-webkit-keyframes webkitSiblingBugfix {
+	from {
+		-webkit-transform: translate3d(0, 0, 0); }
+
+	to {
+		-webkit-transform: translate3d(0, 0, 0); } }

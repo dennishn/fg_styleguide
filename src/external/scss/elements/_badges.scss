@@ -1,0 +1,16 @@
+.badge {
+	display: inline-block;
+	min-width: 20px;
+	min-height: 20px;
+	padding: 3px 7px;
+	font-size: 12px;
+	line-height: 1.2;
+	vertical-align: baseline;
+	white-space: nowrap;
+	text-align: center;
+	border-radius: 1000px;
+	&.primary {
+		color: #fff;
+		background: $primary-color;
+	}
+}

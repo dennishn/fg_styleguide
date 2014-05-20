@@ -237,9 +237,9 @@ angular.module('tapestry', [
                  * hide Menu
                  */
 
-                setTimeout(function(){
-                    angular.element('html').removeClass('menu__opened');
-                }, 2000)
+                // setTimeout(function(){
+                //     angular.element('html').removeClass('menu__opened');
+                // }, 2000)
 
             }
 

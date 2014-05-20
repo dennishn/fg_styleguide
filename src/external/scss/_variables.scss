@@ -33,6 +33,9 @@ $gray-darkest: #474747;
 
 // // // //
 //  FORMS
+// // // //
+//
+// Global
 //
 $form-label-font-size: rem-calc(14);
 $form-label-font-weight: bold;
@@ -53,3 +56,85 @@ $input-border-radius: 4px;
 $input-disabled-bg: $gray-light-alt;
 $input-box-shadow: none;
 $input-include-glowing-effect: false;
+//
+// Range slider
+//
+$range-slider-bar-width: 100%;
+$range-slider-bar-height: rem-calc(5);
+$range-slider-bar-border-width: 0px;
+$range-slider-bar-border-style: solid;
+$range-slider-bar-border-color: transparent;
+$range-slider-bar-bg-color: $gray;
+$range-slider-handle-width: rem-calc(20);
+$range-slider-handle-height: rem-calc(30);
+$range-slider-handle-position-top: rem-calc(-12);
+$range-slider-handle-bg-color: $primary-color-alt;
+$range-slider-handle-border-width: 0px;
+$range-slider-handle-border-style: solid;
+$range-slider-handle-border-color: none;
+$range-slider-handle-radius: 4px;
+$range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
+$range-slider-handle-cursor: pointer;
+//
+// Pre/Postfix labels
+//
+$input-prefix-bg: $gray;
+$input-prefix-border-color: $gray;
+$input-prefix-border-size: 2px;
+$input-prefix-border-type: solid;
+$input-prefix-overflow: hidden;
+$input-prefix-font-color: #333;
+$input-prefix-font-color-alt: #fff;
+//
+// Validation Errors
+//
+$input-error-message-padding: 0;
+$input-error-message-top: 0;
+$input-error-message-font-size: rem-calc(14);
+$input-error-message-font-weight: normal;
+$input-error-message-font-style: normal !default;
+$input-error-message-font-color: $gray-darkest;
+$input-error-message-font-color-alt: $gray-darkest;
+
+// // // //
+// Tooltips
+// // // //
+$has-tip-border-bottom: none;
+$has-tip-cursor-type: pointer;
+
+$tooltip-padding: rem-calc(12);
+$tooltip-bg: #333;
+$tooltip-font-size: rem-calc(14);
+$tooltip-font-weight: normal;
+$tooltip-font-color: #fff;
+$tooltip-line-height: 1.3;
+$tooltip-close-font-size: rem-calc(10);
+$tooltip-close-font-weight: normal;
+$tooltip-close-font-color: #777;
+$tooltip-font-size-sml: rem-calc(14);
+$tooltip-pip-size: 10px;
+
+// // // //
+// Buttons
+// // // //
+$button-tny: rem-calc(5);
+$button-sml: rem-calc(10);
+$button-med: rem-calc(15);
+$button-lrg: rem-calc(20);
+$button-display: inline-block;
+$button-margin-bottom: rem-calc(20);
+$button-font-color: $primary-color;
+$button-font-color-alt: $secondary-color;
+$button-font-tny: rem-calc(11);
+$button-font-sml: rem-calc(13);
+$button-font-med: rem-calc(14);
+$button-font-lrg: rem-calc(20);
+$button-font-weight: normal;
+$button-font-align: center;
+$button-function-factor: -20%;
+$button-border-width: 0px;
+$button-border-style: solid;
+$bg: $success-color;
+$button-border-color: tomato;
+$button-radius: 0;
+$button-disabled-opacity: 0.7;

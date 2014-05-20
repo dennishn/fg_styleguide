@@ -166,55 +166,60 @@
                 "path": "patterns/1.elements/5.Forms/3.selects.md",
                 "name": "Custom Selects",
                 "slug": "3.selects.md"
+            },
+            {
+                "path": "patterns/1.elements/5.Forms/4.switches.md",
+                "name": "Switches",
+                "slug": "4.switches.md"
+            },
+            {
+                "path": "patterns/1.elements/5.Forms/5.range-sliders.md",
+                "name": "Range-sliders",
+                "slug": "5.range-sliders.md"
+            },
+            {
+                "path": "patterns/1.elements/5.Forms/6.helpers.md",
+                "name": "Helpers",
+                "slug": "6.helpers.md"
+            },
+            {
+                "path": "patterns/1.elements/5.Forms/7.pre-postfix.md",
+                "name": "Pre/Postfix Labels",
+                "slug": "7.pre-postfix.md"
+            },
+            {
+                "path": "patterns/1.elements/5.Forms/8.validation.md",
+                "name": "Validation",
+                "slug": "8.validation.md"
             }
         ]
     },
     {
         "name": "Buttons",
-        "slug": "Buttons",
+        "slug": "6.Buttons",
         "children": [
             {
-                "path": "patterns/1.elements/Buttons/buttons-dark.md",
-                "name": "Buttons dark",
-                "slug": "buttons-dark.md"
+                "path": "patterns/1.elements/6.Buttons/1.default-buttons.md",
+                "name": "Default Button types",
+                "slug": "1.default-buttons.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-groups.md",
-                "name": "Button groups",
-                "slug": "buttons-groups.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-icons.md",
+                "path": "patterns/1.elements/6.Buttons/buttons-icons.md",
                 "name": "Buttons with icons",
                 "slug": "buttons-icons.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-light.md",
-                "name": "Buttons light",
-                "slug": "buttons-light.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-primary.md",
-                "name": "Buttons primary",
-                "slug": "buttons-primary.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-secondary.md",
-                "name": "Buttons secondary",
-                "slug": "buttons-secondary.md"
-            },
-            {
-                "path": "patterns/1.elements/Buttons/buttons-sizes.md",
+                "path": "patterns/1.elements/6.Buttons/buttons-sizes.md",
                 "name": "Buttons sizes",
                 "slug": "buttons-sizes.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-variations.md",
+                "path": "patterns/1.elements/6.Buttons/buttons-variations.md",
                 "name": "Button variations",
                 "slug": "buttons-variations.md"
             },
             {
-                "path": "patterns/1.elements/Buttons/buttons-warning.md",
+                "path": "patterns/1.elements/6.Buttons/buttons-warning.md",
                 "name": "Buttons warning",
                 "slug": "buttons-warning.md"
             }

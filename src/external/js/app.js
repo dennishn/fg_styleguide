@@ -26,9 +26,13 @@
         	});
 
         	// Chosen
-        	$('select.custom-select').chosen({
-        		disable_search_treshhold: 0
+        	$('select.custom-select').each(function() {
+        		$(this).chosen({
+	        		disable_search_threshold: 20
+	        	});
         	});
+
+        	$(document).foundation();
 
 
         }

@@ -36,7 +36,7 @@
     $TYPOGRAPHY
 \*------------------------------------*/
 /**
-     * Mobile Sizes     
+     * Mobile Sizes
      */
 /**
      * Desktop font size
@@ -1633,7 +1633,7 @@ body {
   margin: 0; }
 
 html[ng-app] {
-  background: #ecf0f3; }
+  background: #fff; }
 
 /**
  * Box sizing
@@ -2113,7 +2113,7 @@ html[ng-app] {
 
 pre {
   margin: 0 !important;
-  background: #f5f7f9 !important;
+  background: white !important;
   border-radius: 0 0 5px 5px;
   padding: 1em;
   font-size: 16px;

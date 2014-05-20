@@ -28,10 +28,11 @@
 	"../../bower_components/foundation/scss/foundation/components/button-groups",
 	"../../bower_components/foundation/scss/foundation/components/buttons",
 	"../../bower_components/foundation/scss/foundation/components/clearing",
-	"../../bower_components/foundation/scss/foundation/components/dropdown",
 	"../../bower_components/foundation/scss/foundation/components/dropdown-buttons",
+	"../../bower_components/foundation/scss/foundation/components/dropdown",
 	"../../bower_components/foundation/scss/foundation/components/flex-video",
 	"../../bower_components/foundation/scss/foundation/components/forms",
+	"../../bower_components/foundation/scss/foundation/components/global",
 	"../../bower_components/foundation/scss/foundation/components/grid",
 	"../../bower_components/foundation/scss/foundation/components/inline-lists",
 	"../../bower_components/foundation/scss/foundation/components/joyride",
@@ -43,25 +44,35 @@
 	"../../bower_components/foundation/scss/foundation/components/panels",
 	"../../bower_components/foundation/scss/foundation/components/pricing-tables",
 	"../../bower_components/foundation/scss/foundation/components/progress-bars",
+	"../../bower_components/foundation/scss/foundation/components/range-slider",
 	"../../bower_components/foundation/scss/foundation/components/reveal",
+	"../../bower_components/foundation/scss/foundation/components/reveal-new",
 	"../../bower_components/foundation/scss/foundation/components/side-nav",
 	"../../bower_components/foundation/scss/foundation/components/split-buttons",
 	"../../bower_components/foundation/scss/foundation/components/sub-nav",
-	"../../bower_components/foundation/scss/foundation/components/switch",
+	// "../../bower_components/foundation/scss/foundation/components/switch",
 	"../../bower_components/foundation/scss/foundation/components/tables",
 	"../../bower_components/foundation/scss/foundation/components/tabs",
 	"../../bower_components/foundation/scss/foundation/components/thumbs",
 	"../../bower_components/foundation/scss/foundation/components/tooltips",
 	"../../bower_components/foundation/scss/foundation/components/offcanvas",
+	"../../bower_components/foundation/scss/foundation/components/top-bar",
+	"../../bower_components/foundation/scss/foundation/components/type",
 	"../../bower_components/foundation/scss/foundation/components/visibility";
 
 // Plugin Dependencies
 
 // Nodes Components
 @import
+// Utilities
+	"utilities/grid-helpers",
 // Elements
+	"elements/badges",
+	"elements/buttons",
 	"elements/colors",
 	"elements/forms",
 // Plugins
 	"plugins/fontawesome/font-awesome",
-	"plugins/icheck";
+	"plugins/icheck",
+	"plugins/flip-switch",
+	"plugins/chosen";

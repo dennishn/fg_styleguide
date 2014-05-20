@@ -1,11 +1,9 @@
-// BASIC FORMS
-
 // // // //
 //  FORMS
+// // // //
 //
-
-
-
+// Global
+//
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -21,15 +19,218 @@ input[type="time"],
 input[type="url"],
 textarea,
 select {
-	margin-top: rem-calc(5);
+	margin-left: -8px;
 	border-radius: $input-border-radius;
-	// border-width: $input-border-width;
-}
 
+}
+//
+// Calluout Fields (CTA)
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+	&.callout {
+		font-size: rem-calc(25);
+		line-height: rem-calc(50);
+		height: rem-calc(50);
+		border-color: $gray-darkest;
+		color: $secondary-color;
+	}
+	&.callout::-webkit-input-placeholder {
+		color: $secondary-color;
+		font-size: $input-font-size;
+		font-weight: normal;
+	}
+	&.callout::-moz-placeholder {
+		color: $secondary-color;
+		font-size: $input-font-size;
+		font-weight: normal;
+	}
+	&.callout:-ms-input-placeholder {
+		color: $secondary-color;
+		font-size: $input-font-size;
+		font-weight: normal;
+	}
+	&.callout:-moz-placeholder {
+		color: $secondary-color;
+		font-size: $input-font-size;
+		font-weight: normal;
+	}
+}
+label {
+	padding-left: 8px;
+}
+//
 // Disabled Fields
+//
 label.disabled {
 	font-weight: normal;
 	input {
 		border-color: $gray-light-alt;
+	}
+}
+
+//
+// Range Slider
+//
+.range-slider {
+	border-top: 1px solid $gray-dark;
+	border-bottom: 1px solid #fff;
+}
+.range-slider-handle {
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+	font-size: 12px;
+}
+.range-slider-output {
+	position: absolute;
+	height: 100%;
+	width: $range-slider-handle-width*4;
+	top: -50%;
+	left: 0;
+	margin-top: -50%;
+	margin-left: -30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: $primary-color;
+}
+.range-slider-active-segment {
+	background: $gray-darker;
+	border-top: 1px solid #818181;
+	border-bottom: 1px solid #fff;
+}
+//
+// Form Helpers (Specific type of tooltip)
+//
+.columns.has-form-helper {
+	padding-right: $column-gutter; // Make room for the form-helper to the right
+}
+.form-helper {
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+//
+// Form Helpers (Pre/Postfix Labels)
+//
+.columns.has-prefix {
+	input {
+		margin-left: -1px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		border-left: none;
+	}
+}
+.columns.has-postfix {
+	input {
+		margin-left: 1px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-right: none;
+	}
+}
+.prefix {
+	border-top-left-radius: $input-border-radius;
+	border-bottom-left-radius: $input-border-radius;
+	&.callout {
+		line-height: rem-calc(45);
+		height: rem-calc(50);
+		color: #fff;
+		background: $gray-darkest;
+		border-color: $gray-darkest;
+	}
+}
+.postfix {
+	border-top-right-radius: $input-border-radius;
+	border-bottom-right-radius: $input-border-radius;
+	&.callout {
+		line-height: rem-calc(45);
+		height: rem-calc(50);
+		color: #fff;
+		background: $gray-darkest;
+		border-color: $gray-darkest;
+	}
+}
+//
+// Form Helpers (Icon in input field)
+//
+.has-icon {
+	position: relative;
+	.icon {
+		position: absolute;
+		right: $form-spacing;
+		bottom: $form-spacing;
+		line-height: .5;
+		font-size: $input-font-size;
+		pointer-events: none;
+	}
+	&.callout {
+		.icon {
+			font-size: rem-calc(25);
+			color: $secondary-color;
+			bottom: rem-calc(18);
+		}
+	}
+	&.has-postfix,
+	&.has-prefix {
+		&.callout {
+			.icon {
+				bottom: 35px;
+			}
+		}
+	}
+}
+
+// // // //
+// Validation Errors
+// // // //
+label.error {
+	margin-bottom: 0;
+	color: $gray-darkest;
+	input, select, textarea {
+		margin-bottom: 0;
+		border-color: $alert-color-alt;
+		&.callout {
+			border-color: $alert-color-alt;
+		}
+		&.callout::-webkit-input-placeholder {
+			color: $alert-color-alt;
+		}
+		&.callout::-moz-placeholder {
+			color: $alert-color-alt;
+		}
+		&.callout:-ms-input-placeholder {
+			color: $alert-color-alt;
+		}
+		&.callout:-moz-placeholder {
+			color: $alert-color-alt;
+		}
+	}
+	.icon {
+		color: $alert-color-alt;
+	}
+	&.callout .icon {
+		color: $alert-color-alt;
+	}
+}
+small.error {
+	padding: 0 8px 0 8px;
+	background: transparent;
+	i {
+		margin-right: 8px;
+		color: $alert-color-alt;
 	}
 }

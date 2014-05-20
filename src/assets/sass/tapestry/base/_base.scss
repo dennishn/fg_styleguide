@@ -10,7 +10,9 @@ html{
     text-align: #{$dir-default};
     color: $base-color;
 }
-
+.tapestry-content {
+	background: #ecf0f3;
+}
 /**
  * Clearfix
  */
