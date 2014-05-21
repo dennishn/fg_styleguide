@@ -50,12 +50,21 @@
 }
 .bg-gray {
 	background: $gray;
+	&.alt {
+		background: $gray-alt;
+	}
 }
 .bg-gray-dark {
 	background: $gray-dark;
+	&.alt {
+		background: $gray-dark-alt;
+	}
 }
 .bg-gray-darker {
 	background: $gray-darker;
+	&.alt {
+		background: $gray-darker-alt;
+	}
 }
 .bg-gray-darkest {
 	background: $gray-darkest;
@@ -116,12 +125,21 @@
 }
 .text-gray {
 	color: $gray;
+	&.alt {
+		color: $gray-alt;
+	}
 }
 .text-gray-dark {
 	color: $gray-dark;
+	&.alt {
+		color: $gray-dark-alt;
+	}
 }
 .text-gray-darker {
 	color: $gray-darker;
+	&.alt {
+		color: $gray-darker-alt;
+	}
 }
 .text-gray-darkest {
 	color: $gray-darkest;

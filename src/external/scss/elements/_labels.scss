@@ -1,0 +1,99 @@
+.label {
+	&.tiny {
+		padding: rem-calc(1 2 1);
+	}
+	&.small {
+		padding: rem-calc(2 4 2);
+	}
+	&.medium {
+
+	}
+	&.large {
+		padding: rem-calc(8 16 8);
+	}
+	&.alert {
+		background: $alert-color-alt;
+		color: #fff;
+	}
+	&.warning {
+		background: $warning-color-alt;
+		color: #fff;
+	}
+	&.success {
+		background: $success-color-alt;
+		color: #fff;
+	}
+	&.info {
+		background: $info-color-alt;
+		color: $secondary-color;
+	}
+}
+h1.label {
+	font-size: $h1-font-size;
+	&.with-badge {
+		span.badge {
+			margin-right: 5px;
+		}
+		span:not(.badge) {
+			line-height: 20px;
+		}
+	}
+}
+h2.label {
+	font-size: $h2-font-size;
+	&.with-badge {
+		span.badge {
+			margin-right: 5px;
+		}
+		span:not(.badge) {
+			line-height: 20px;
+		}
+	}
+}
+h3.label {
+	font-size: $h3-font-size;
+	&.with-badge {
+		span.badge {
+			margin-right: 5px;
+		}
+		span:not(.badge) {
+			line-height: 20px;
+		}
+	}
+}
+h4.label {
+	font-size: $h4-font-size;
+	&.with-badge {
+		span.badge {
+			margin-right: 5px;
+		}
+		span:not(.badge) {
+			line-height: 20px;
+		}
+	}
+}
+h5.label {
+	font-size: $h5-font-size;
+	&.with-badge {
+		span.badge {
+			margin-right: 5px;
+		}
+		span:not(.badge) {
+			line-height: 20px;
+		}
+	}
+}
+h6.label {
+	font-size: $h6-font-size;
+	&.with-badge {
+		span.badge {
+			margin-right: 5px;
+		}
+		span:not(.badge) {
+			line-height: 20px;
+		}
+	}
+}
+p.label {
+	font-size: 1rem;
+}

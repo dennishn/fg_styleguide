@@ -1,4 +1,33 @@
 // // // //
+// GLOBALS
+// // // //
+$rem-base: 14px;
+$base-font-size: 14px;
+
+// // // //
+// Typography
+// // // //
+$body-font-color: #474747;
+$body-font-family: "ff-dax-web-pro", Helvetica, Arial, sans-serif;
+$font-smoothing: subpixel-antialiased;
+//
+// Headers
+//
+$header-font-color: #474747;
+$h1-font-size: rem-calc(40);
+$h2-font-size: rem-calc(30);
+$h3-font-size: rem-calc(24);
+$h4-font-size: rem-calc(20);
+$h5-font-size: rem-calc(18);
+$h6-font-size: rem-calc(16);
+//
+// Paragraphs
+//
+$normal-paragraph-font-size: 1rem;
+$small-paragraph-font-size: rem-calc(10);
+
+
+// // // //
 // Colors
 // // // //
 //
@@ -26,9 +55,12 @@ $gray-lighter: #fbfbfb;
 $gray-lighter-alt: #f9faf7;
 $gray-light: #f6f7f5;
 $gray-light-alt: #f1f2f0;
-$gray: #d1d1d1;
-$gray-dark: #c3c4c2;
+$gray: #e5e5e5;
+$gray-alt: #d1d1d1;
+$gray-dark: #d9d9d9;
+$gray-dark-alt: #c3c4c2;
 $gray-darker: #a3a3a3;
+$gray-darker-alt: #909090;
 $gray-darkest: #474747;
 
 // // // //
@@ -48,7 +80,7 @@ $input-font-color: $gray-darkest;
 $input-font-size: rem-calc(18);
 $input-bg-color: $gray-lighter-alt;
 $input-focus-bg-color: $gray-lighter-alt;
-$input-border-color: $gray;
+$input-border-color: $gray-alt;
 $input-focus-border-color: $gray-darkest;
 $input-border-style: solid;
 $input-border-width: 2px;
@@ -64,7 +96,7 @@ $range-slider-bar-height: rem-calc(5);
 $range-slider-bar-border-width: 0px;
 $range-slider-bar-border-style: solid;
 $range-slider-bar-border-color: transparent;
-$range-slider-bar-bg-color: $gray;
+$range-slider-bar-bg-color: $gray-alt;
 $range-slider-handle-width: rem-calc(20);
 $range-slider-handle-height: rem-calc(30);
 $range-slider-handle-position-top: rem-calc(-12);
@@ -78,8 +110,8 @@ $range-slider-handle-cursor: pointer;
 //
 // Pre/Postfix labels
 //
-$input-prefix-bg: $gray;
-$input-prefix-border-color: $gray;
+$input-prefix-bg: $gray-alt;
+$input-prefix-border-color: $gray-alt;
 $input-prefix-border-size: 2px;
 $input-prefix-border-type: solid;
 $input-prefix-overflow: hidden;
@@ -103,7 +135,7 @@ $has-tip-border-bottom: none;
 $has-tip-cursor-type: pointer;
 
 $tooltip-padding: rem-calc(12);
-$tooltip-bg: #333;
+$tooltip-bg: #474747;
 $tooltip-font-size: rem-calc(14);
 $tooltip-font-weight: normal;
 $tooltip-font-color: #fff;
@@ -135,6 +167,16 @@ $button-function-factor: -20%;
 $button-border-width: 0px;
 $button-border-style: solid;
 $bg: $success-color;
-$button-border-color: tomato;
+$button-border-color: $gray;
 $button-radius: 0;
-$button-disabled-opacity: 0.7;
+$button-disabled-opacity: 1;
+
+// // // //
+// Labels
+// // // //
+$label-padding: rem-calc(4 8 4);
+$label-font-sizing: rem-calc(10);
+$label-font-weight: normal;
+$label-font-color: #333;
+$label-font-color-alt: #fff;
+$label-font-family: $body-font-family;

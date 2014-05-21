@@ -1912,7 +1912,8 @@ html[ng-app] {
 /* Heading */
 .tapestry__heading {
   margin: 8px 0 0 0;
-  font-family: 'Open Sans', Helvetica, Arial; }
+  font-family: 'Open Sans', Helvetica, Arial;
+  color: #fff; }
   @media only screen and (min-width: 600px) {
     .tapestry__heading {
       margin-top: 5px; } }
@@ -1926,7 +1927,7 @@ html[ng-app] {
     position: relative; }
   @media only screen and (min-width: 960px) {
     .tapestry-wrapper > .container {
-      width: 990px;
+      width: 1000px;
       margin: 0 auto; } }
   @media only screen and (min-width: 600px) {
     .tapestry-wrapper {

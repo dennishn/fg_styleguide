@@ -52,18 +52,18 @@ hidecode: true
 	</li>
 	<li>
 		<h3>Gray</h3>
-		<div class="color bg-gray"><span>#f6f7f5</span></div>
-		<div class="color bg-gray"><span class="text-gray">#f6f7f5</span></div>
+		<div class="color bg-gray"><span>#e5e5e5</span></div>
+		<div class="color bg-gray alt"><span class="text-gray-darker">#d1d1d1</span></div>
 	</li>
 	<li>
 		<h3>Gray Dark</h3>
 		<div class="color bg-gray-dark"><span>#c3c4c2</span></div>
-		<div class="color bg-gray-dark"><span class="text-gray-dark">#c3c4c2</span></div>
+		<div class="color bg-gray-dark alt"><span>#c3c4c2</span></div>
 	</li>
 	<li>
 		<h3>Gray Darker</h3>
 		<div class="color bg-gray-darker"><span>#a3a3a3</span></div>
-		<div class="color bg-gray-darker"><span class="text-gray-darker">#a3a3a3</span></div>
+		<div class="color bg-gray-darker alt"><span>#909090</span></div>
 	</li>
 	<li>
 		<h3>Gray Darkest</h3>

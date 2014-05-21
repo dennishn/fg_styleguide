@@ -1,0 +1,9 @@
+p, span {
+	&.text-small {
+		font-size: $small-paragraph-font-size;
+		line-height: 1rem;
+	}
+}
+p {
+
+}

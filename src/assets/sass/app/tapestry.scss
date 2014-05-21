@@ -409,6 +409,7 @@ $menu-spacing: 20px;
 .tapestry__heading{
     margin: 8px 0 0 0;
     font-family: $fontfamily;
+    color: #fff;
 
     @include media-query(tablet-desktop){
         margin-top: 5px;
@@ -429,7 +430,7 @@ $menu-spacing: 20px;
 
     @include media-query(desktop){
         > .container{
-            width: 990px;
+            width: 1000px;
             margin: 0 auto;
         }
     }
