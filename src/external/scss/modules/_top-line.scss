@@ -1,0 +1,17 @@
+.top-line {
+	height: 65px;
+	border-top: 5px solid $primary-color-alt;
+	#logo {
+		position: absolute;
+		width: 108px;
+		height: 65px;
+		top: -5px;
+		right: 0;
+	}
+	.brand-name {
+		color: #424242;
+		margin-top: 20px;
+		margin-bottom: 0;
+		font-size: $h3-font-size;
+	}
+}

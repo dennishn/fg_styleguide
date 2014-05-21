@@ -66,6 +66,11 @@
                 "path": "patterns/1.elements/2.Typography/a.inline-list.md",
                 "name": "Inline-list",
                 "slug": "a.inline-list.md"
+            },
+            {
+                "path": "patterns/1.elements/2.Typography/b.rulers and lines.md",
+                "name": "Rulers and Lines",
+                "slug": "b.rulers and lines.md"
             }
         ]
     },
@@ -195,6 +200,11 @@
                 "path": "patterns/1.elements/8.Labels and Badges/2.badges.md",
                 "name": "Badges",
                 "slug": "2.badges.md"
+            },
+            {
+                "path": "patterns/1.elements/8.Labels and Badges/3.number-circles.md",
+                "name": "Number circles",
+                "slug": "3.number-circles.md"
             }
         ]
     },
@@ -206,6 +216,11 @@
                 "path": "patterns/1.elements/9.Media/1.logo.md",
                 "name": "Logo",
                 "slug": "1.logo.md"
+            },
+            {
+                "path": "patterns/1.elements/9.Media/2.gradients.md",
+                "name": "Gradients",
+                "slug": "2.gradients.md"
             }
         ]
     }

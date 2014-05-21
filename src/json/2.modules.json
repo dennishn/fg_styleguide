@@ -1,0 +1,13 @@
+[
+    {
+        "name": "top line",
+        "slug": "1.top line",
+        "children": [
+            {
+                "path": "patterns/2.modules/1.top line/1.top-line.md",
+                "name": "top-line",
+                "slug": "1.top-line.md"
+            }
+        ]
+    }
+]

@@ -4,6 +4,13 @@ p, span {
 		line-height: 1rem;
 	}
 }
+
 p {
 
+}
+
+hr {
+	&.dark {
+		border-color: $hr-border-light-color;
+	}
 }
