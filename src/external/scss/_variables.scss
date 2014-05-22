@@ -5,6 +5,18 @@ $rem-base: 14px;
 $base-font-size: 14px;
 
 // // // //
+// Whitespace
+// // // //
+$ws-xtiny: rem-calc(10);
+$ws-tiny: rem-calc(15);
+$ws-xsmall: rem-calc(20);
+$ws-small: rem-calc(25);
+$ws-medium: rem-calc(30);
+$ws-large: rem-calc(35);
+$ws-xlarge: rem-calc(40);
+$ws-xxlarge: rem-calc(50);
+
+// // // //
 // Typography
 // // // //
 $body-font-color: #474747;
@@ -69,6 +81,7 @@ $gray-dark-alt: #c3c4c2;
 $gray-darker: #a3a3a3;
 $gray-darker-alt: #909090;
 $gray-darkest: #474747;
+$gray-darkest-alt: #333333;
 
 // // // //
 //  FORMS
@@ -187,3 +200,8 @@ $label-font-weight: normal;
 $label-font-color: #333;
 $label-font-color-alt: #fff;
 $label-font-family: $body-font-family;
+
+// // // //
+// Font Awesome
+// // // //
+$fa-li-width: 1em !default;

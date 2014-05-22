@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Home",
+        "slug": "0.Home",
+        "children": [
+            {
+                "path": "patterns/3.templates/0.Home/0.home.md",
+                "name": "Homepage",
+                "slug": "0.home.md"
+            }
+        ]
+    }
+]

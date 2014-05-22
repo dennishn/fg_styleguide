@@ -177,6 +177,12 @@ label.disabled {
 		font-size: $input-font-size;
 		pointer-events: none;
 	}
+	button.icon {
+		margin: 0;
+		padding: 0;
+		background: none;
+		pointer-events: all;
+	}
 	&.callout {
 		.icon {
 			font-size: rem-calc(25);
@@ -189,6 +195,9 @@ label.disabled {
 		&.callout {
 			.icon {
 				bottom: 35px;
+			}
+			button.icon {
+				bottom: 30px;
 			}
 		}
 	}

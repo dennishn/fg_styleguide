@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Home",
+        "slug": "0.Home",
+        "children": [
+            {
+                "path": "patterns/3.pages/0.Home/0.home.md",
+                "name": "Homepage",
+                "slug": "0.home.md"
+            }
+        ]
+    },
+    {
+        "name": "Car",
+        "slug": "1.Car",
+        "children": [
+            {
+                "path": "patterns/3.pages/1.Car/1.a.LicensePlate.md",
+                "name": "Enter Licenseplate",
+                "slug": "1.a.LicensePlate.md"
+            },
+            {
+                "path": "patterns/3.pages/1.Car/1.a.LicensePlateResult.md",
+                "name": "Car Landing B",
+                "slug": "1.a.LicensePlateResult.md"
+            }
+        ]
+    }
+]

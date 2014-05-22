@@ -68,6 +68,6 @@ hidecode: true
 	<li>
 		<h3>Gray Darkest</h3>
 		<div class="color bg-gray-darkest"><span>#474747</span></div>
-		<div class="color bg-gray-darkest"><span class="text-gray-darkest">#474747</span></div>
+		<div class="color bg-gray-darkest alt"><span>#333333</span></div>
 	</li>
 </ul>
